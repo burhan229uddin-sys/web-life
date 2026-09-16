@@ -1,0 +1,58 @@
+import type { Review } from "@/lib/types";
+
+export const SEED_REVIEWS: Review[] = [
+  {
+    id: "r1",
+    name: "Amira K.",
+    role: "Physician, 41",
+    text: "I sent two patients the sleep chapter before their CBT-I referral. It does not pretend to be a clinic. That is why I trust it.",
+    rating: 5,
+    createdAt: "2026-04-11",
+    hidden: true,
+  },
+  {
+    id: "r2",
+    name: "Leo M.",
+    role: "Software, 29",
+    text: "The free assessment was uncomfortably accurate about my 12:40am scrolling. I paid for Pro the same evening. The body atlas is the product.",
+    rating: 5,
+    createdAt: "2026-05-02",
+    hidden: true,
+  },
+  {
+    id: "r3",
+    name: "Priya S.",
+    role: "Teacher, 36",
+    text: "Finally a site that says 'go to a therapist' without embarrassment, and cites Gottman instead of a quote-graphic.",
+    rating: 5,
+    createdAt: "2026-06-18",
+    hidden: true,
+  },
+  {
+    id: "r4",
+    name: "Daniel R.",
+    role: "Trades, 52",
+    text: "I wanted a prescription. They gave me a waist number, a walking plan, and a note to see my GP about blood pressure. Correct.",
+    rating: 4,
+    createdAt: "2026-07-09",
+    hidden: true,
+  },
+  {
+    id: "r5",
+    name: "Sofia L.",
+    role: "Designer, 34",
+    text: "The free kitchen actually cooked my week. Twelve recipes with grams. I did not feel punished for not paying.",
+    rating: 5,
+    createdAt: "2026-08-02",
+    hidden: true,
+  },
+  {
+    id: "r6",
+    name: "Jonah P.",
+    role: "Nurse, 27",
+    text: "Check-in streak sounds gimmicky until you watch mood and sleep sit next to each other for two weeks. Then it is a chart your GP would like.",
+    rating: 5,
+    createdAt: "2026-08-21",
+    hidden: true,
+  },
+];
